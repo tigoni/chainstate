@@ -1,0 +1,4 @@
+baseURL = 'http://chainstate.co.ke'
+languageCode = 'en-us'
+title = 'ChainState'
+theme = 'PaperMod'
