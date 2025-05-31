@@ -6,6 +6,9 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	output: 'static',
 	base: '/chainstate/',
+	adapter: githubPages({
+		site: 'https://tigoni.github.io/chainstate',
+	}),
 	site: 'https://tigoni.github.io/chainstate',
 	integrations: [mdx(), sitemap()],
 });
